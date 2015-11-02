@@ -12,7 +12,7 @@ var keystone = require('keystone');
 keystone.init({
 
 	'name': 'Jerod Estapa',
-	'brand': '{Jerod Estapa}',
+	'brand': 'Jerod Estapa',
 	
 	'less': 'public',
 	'static': 'public',
