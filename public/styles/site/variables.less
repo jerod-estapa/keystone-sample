@@ -18,6 +18,9 @@
 @gray-light:             lighten(@gray-base, 60%);   // #999
 @gray-lighter:           lighten(@gray-base, 90%); // #eee
 
+//## Custom colors
+@light-blue:             #00BBEA;
+
 @brand-primary:         #2780E3;
 @brand-success:         #3FB618;
 @brand-info:            #9954BB;
@@ -30,7 +33,10 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #fff;
+@body-bg:               #00BBEA;
+
+@body-sm:               #00BBEA;
+
 //** Global text color on `<body>`.
 @text-color:            @gray-dark;
 
@@ -369,7 +375,7 @@
 @navbar-collapse-max-height:       340px;
 
 @navbar-default-color:             #fff;
-@navbar-default-bg:                @gray-darker;
+@navbar-default-bg:                @light-blue;
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
