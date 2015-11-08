@@ -8,6 +8,7 @@
 // Provide a static navbar from which we expand to create full-width, fixed, and
 // other navbar variations.
 
+
 .navbar {
   position: relative;
   min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
@@ -107,8 +108,8 @@
 .container-fluid {
   > .navbar-header,
   > .navbar-collapse {
-    margin-right: -@navbar-padding-horizontal;
-    margin-left:  -@navbar-padding-horizontal;
+    margin-right: 0%; //-@navbar-padding-horizontal;
+    margin-left:  0%; //-@navbar-padding-horizontal;
 
     @media (min-width: @grid-float-breakpoint) {
       margin-right: 0;
