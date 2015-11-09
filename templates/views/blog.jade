@@ -1,5 +1,6 @@
 extends ../layouts/default
 
+
 mixin post(post)
 	.post(data-ks-editable=editable(user, { list: 'Post', id: post.id }))
 		h2: a(href='/blog/post/' + post.slug)= post.title
