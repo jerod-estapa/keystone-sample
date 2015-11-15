@@ -1,4 +1,5 @@
 extends ../layouts/default
+import ../layouts/additional
 
 
 mixin post(post)
@@ -74,3 +75,4 @@ block content
 					a(href='/blog', class=!data.category ? 'active' : false).list-group-item All Categories
 					each cat in data.categories
 						a(href='/blog/' + cat.key, class=data.category && data.category.id == cat.id ? 'active' : false).list-group-item= cat.name
+
