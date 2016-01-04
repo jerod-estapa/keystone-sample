@@ -1,3 +1,2 @@
-# jerod-site
 ## www.jerodestapa.com
-This is my developer portfolio & blog. Built using KeystoneJS.
+This is my personal portfolio & blog. Built with KeystoneJS.
