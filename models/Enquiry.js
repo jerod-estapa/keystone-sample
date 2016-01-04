@@ -16,7 +16,8 @@ Enquiry.add({
 	email: { type: Types.Email, required: true },
 	phone: { type: String },
 	enquiryType: { type: Types.Select, options: [
-		{ value: 'message', label: 'Just leaving a message' },
+		{ value: 'message', label: 'I have an idea for an app!' },
+		{ value: 'message', label: 'I have an existing app that needs some work' },
 		{ value: 'question', label: 'I\'ve got a question' },
 		{ value: 'other', label: 'Something else...' }
 	] },
